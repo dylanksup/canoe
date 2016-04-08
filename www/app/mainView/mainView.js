@@ -13,4 +13,6 @@ angular.module('canoe.main', [])
 	// $scope.getLyftDrivers = getLyftDriversNearBy().then(function(data){
 	// 	$scope.drivers = data.nearbydrivers.drivers.location;
 	// })
+  Details.getUberEstimates();
+
 });

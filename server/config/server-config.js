@@ -6,4 +6,5 @@ var server = express();
 server.use(express.static(__dirname + '/../../www'));
 mongoose.connect('mongodb://localhost/canoe');
 
+
 module.exports = server;
